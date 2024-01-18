@@ -1,0 +1,64 @@
+m 0 l 5 d 0 a 0 p 0 s 0 3 d 0
+m 4 r 5 3 d 4 a 4 p 4 s 4 3 d 4
+m 1 c 4 d 1 a 1 p 1 s 1 2 d 1
+m 3 t 3 1 d 3 a 3 p 3 s 3 2 d 3
+m 2 m 8 d 2 a 2 p 2 s 2 0.5 d 2
+c 4 d 4
+q
+
+unit-factoryA-shapes
+
+Line
+Length: 5
+
+Area: 0
+
+Perimeter: 5
+
+Line
+Length: 15
+
+Rectangle
+Length: 5
+Width: 3
+
+Area: 15
+Perimeter: 16
+
+Rectangle
+Length: 15
+Width: 9
+
+Circle
+Radius: 4
+
+Area: 50.2655
+
+Perimeter: 25.1327
+
+Circle
+Radius: 8
+
+Right triangle
+Base: 3
+Height: 1
+
+Area: 1.5
+
+Perimeter: 7.16228
+
+Right triangle
+Base: 6
+Height: 2
+
+Square
+Side: 8
+
+Area: 64
+
+Perimeter: 32
+
+Square
+Side: 4
+
+

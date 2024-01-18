@@ -1,0 +1,16 @@
+m 0 t 3 4 a 0 p 0 d 0 s 0 3 d 0
+q
+
+unit-right-triangle
+
+Area: 6
+
+Perimeter: 12
+
+Right triangle
+Base: 3
+Height: 4
+
+Right triangle
+Base: 9
+Height: 12

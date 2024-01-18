@@ -1,0 +1,39 @@
+5 w f n 1.1 w f n 2.2 n 3.3 n 4.4 n 5.5 w f
+d w f n 6.6 w f d w f n 7.7 w f
+d d d d d w f
+q
+
+unit-isFull
+
+Head --> Tail
+
+The queue is not full.
+
+Head --> Tail
+1.1  
+The queue is not full.
+
+Head --> Tail
+1.1  2.2  3.3  4.4  5.5  
+The queue is full.
+
+Head --> Tail
+2.2  3.3  4.4  5.5
+The queue is not full.
+
+Head --> Tail
+2.2  3.3  4.4  5.5  6.6
+The queue is full.
+
+Head --> Tail
+3.3  4.4  5.5  6.6
+The queue is not full.
+
+Head --> Tail
+3.3  4.4  5.5  6.6  7.7
+The queue is full.
+
+Head --> Tail
+
+The queue is not full.
+

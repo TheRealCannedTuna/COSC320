@@ -1,0 +1,45 @@
+m 0 e 4 3 d 0 a 0 p 0 s 0 3 d 0
+m 4 t 9 d 4 a 4 p 4 s 4 2 d 4
+m 2 m 5 d 2 a 2 p 2 s 2 0.5 d 2
+c 0 d 0
+q
+
+unit-factoryB-shapes
+
+Ellipse
+Major axis: 4
+Minor axis: 3
+
+Area: 37.6991
+
+Perimeter: 27.768
+
+Ellipse
+Major axis: 12
+Minor axis: 9
+
+Equilateral Triangle
+Side: 9
+
+Area: 35.074
+
+Perimeter: 27
+
+Equilateral Triangle
+Side: 18
+
+Square
+Side: 5
+
+Area: 25
+
+Perimeter: 20
+
+Square
+Side: 2.5
+
+NullShape
+
+
+
+
