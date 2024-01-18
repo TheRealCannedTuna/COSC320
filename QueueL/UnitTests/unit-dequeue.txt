@@ -1,0 +1,56 @@
+5 n 1.1 n 2.2 n 3.3 n 4.4 n 5.5 w
+d w d w n 6.6 w d w n 7.7 w n 8.8 w d w d w d w
+n 9.9 w d w
+q
+
+unit-dequeue
+
+Head --> Tail
+(1.1, 2.2, 3.3, 4.4, 5.5)
+
+Value dequeued: 1.1
+
+Head --> Tail
+(2.2, 3.3, 4.4, 5.5)
+
+Value dequeued: 2.2
+
+Head --> Tail
+(3.3, 4.4, 5.5)
+
+Head --> Tail
+(3.3, 4.4, 5.5, 6.6)
+
+Value dequeued: 3.3
+
+Head --> Tail
+(4.4, 5.5, 6.6)
+
+Head --> Tail
+(4.4, 5.5, 6.6, 7.7)
+
+Head --> Tail
+(4.4, 5.5, 6.6, 7.7, 8.8)
+
+Value dequeued: 4.4
+
+Head --> Tail
+(5.5, 6.6, 7.7, 8.8)
+
+Value dequeued: 5.5
+
+Head --> Tail
+(6.6, 7.7, 8.8)
+
+Value dequeued: 6.6
+
+Head --> Tail
+(7.7, 8.8)
+
+Head --> Tail
+(7.7, 8.8, 9.9)
+
+Value dequeued: 7.7
+
+Head --> Tail
+(8.8, 9.9)

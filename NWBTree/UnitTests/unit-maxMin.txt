@@ -1,0 +1,56 @@
+3 i 50 w m x
+i 20 i 70 w m x
+i 10 i 30 i 40 w m x
+i 80 i 90 i 95 w m x
+i 35 i 45 i 60 i 65 w m x
+q
+
+unit-maxMin
+
+50 
+
+The minimum value is 50.
+The maximum value is 50.
+
+20 50 70 
+
+The minimum value is 20.
+The maximum value is 70.
+
+30 50 
+|_ 10 20 
+|  
+|_ 40 
+|  
+|_ 70 
+   
+The minimum value is 10.
+The maximum value is 70.
+
+30 50 90 
+|_ 10 20 
+|  
+|_ 40 
+|  
+|_ 70 80 
+|  
+|_ 95 
+   
+The minimum value is 10.
+The maximum value is 95.
+
+70 
+|_ 30 50 
+|  |_ 10 20 
+|  |  
+|  |_ 35 40 45 
+|  |  
+|  |_ 60 65 
+|     
+|_ 90 
+   |_ 80 
+   |  
+   |_ 95 
+      
+The minimum value is 10.
+The maximum value is 95.

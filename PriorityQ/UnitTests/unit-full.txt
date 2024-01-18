@@ -1,0 +1,13 @@
+8 i 10 i 50 i 30 i 20 i 90 i 40 i 70 w f
+i 60 w f
+q
+
+unit-full
+
+0:90  1:50  2:70  3:10  4:20  5:30  6:40
+
+The priority queue is not full.
+
+0:90  1:60  2:70  3:50  4:20  5:30  6:40  7:10
+
+The priority queue is full.

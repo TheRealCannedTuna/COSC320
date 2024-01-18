@@ -1,0 +1,26 @@
+3 w s
+i 10 w s
+i 30 i 40 w s
+i 50 w s
+q
+
+unit-isEmpty
+
+*
+
+The tree is empty.
+
+10 
+
+The tree is not empty.
+
+10 30 40 
+
+The tree is not empty.
+
+40 
+|_ 10 30 
+|  
+|_ 50 
+   
+The tree is not empty.

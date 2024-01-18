@@ -1,0 +1,21 @@
+8 i 10 w m x w
+i 50 i 30 i 20 i 90 i 40 i 70 w m x w
+q
+
+unit-extractMax
+
+0:10
+
+Maximum: 10
+
+Value extracted: 10
+
+
+
+0:90  1:50  2:70  3:30  4:40  5:20
+
+Maximum: 90
+
+Value extracted: 90
+
+0:70  1:50  2:20  3:30  4:40

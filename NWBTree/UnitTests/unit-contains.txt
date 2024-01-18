@@ -1,0 +1,85 @@
+3 i 50 i 20 i 70 w
+n 1 n 21 n 51 n 71 n 20 n 50 n 70
+i 10 w
+n 1 n 11 n 21 n 51 n 71 n 50 n 20 n 70 n 10
+i 30 i 40 i 40 i 80 i 90 i 95 i 35 i 45 i 60 i 65 i 72 i 74 i 76 w
+n 1 n 11 n 21 n 31 n 36 n 41 n 46 n 51 n 61 n 66
+n 71 n 73 n 75 n 77 n 81 n 91 n 96
+n 70 n 30 n 50 n 10 n 20 n 35 n 40 n 45 n 60 n 65 n 76 n 90 n 72 n 74 n 80 n 95
+q
+
+unit-contains
+
+20 50 70 
+
+The tree does not contain 1.
+The tree does not contain 21.
+The tree does not contain 51.
+The tree does not contain 71.
+The tree contains 20 at position 0.
+The tree contains 50 at position 1.
+The tree contains 70 at position 2.
+
+50 
+|_ 10 20 
+|  
+|_ 70 
+   
+The tree does not contain 1.
+The tree does not contain 11.
+The tree does not contain 21.
+The tree does not contain 51.
+The tree does not contain 71.
+The tree contains 50 at position 0.
+The tree contains 20 at position 1.
+The tree contains 70 at position 0.
+The tree contains 10 at position 0.
+
+70 
+|_ 30 50 
+|  |_ 10 20 
+|  |  
+|  |_ 35 40 45 
+|  |  
+|  |_ 60 65 
+|     
+|_ 76 90 
+   |_ 72 74 
+   |  
+   |_ 80 
+   |  
+   |_ 95 
+      
+The tree does not contain 1.
+The tree does not contain 11.
+The tree does not contain 21.
+The tree does not contain 31.
+The tree does not contain 36.
+The tree does not contain 41.
+The tree does not contain 46.
+The tree does not contain 51.
+The tree does not contain 61.
+The tree does not contain 66.
+The tree does not contain 71.
+The tree does not contain 73.
+The tree does not contain 75.
+The tree does not contain 77.
+The tree does not contain 81.
+The tree does not contain 91.
+The tree does not contain 96.
+The tree contains 70 at position 0.
+The tree contains 30 at position 0.
+The tree contains 50 at position 1.
+The tree contains 10 at position 0.
+The tree contains 20 at position 1.
+The tree contains 35 at position 0.
+The tree contains 40 at position 1.
+The tree contains 45 at position 2.
+The tree contains 60 at position 0.
+The tree contains 65 at position 1.
+The tree contains 76 at position 0.
+The tree contains 90 at position 1.
+The tree contains 72 at position 0.
+The tree contains 74 at position 1.
+The tree contains 80 at position 0.
+The tree contains 95 at position 0.

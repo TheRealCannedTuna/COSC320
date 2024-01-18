@@ -1,0 +1,37 @@
+3 w h v u
+i 50 i 20 i 70 w h v u
+i 10 i 30 i 40 i 40 i 80 i 90 i 95 i 35 i 45 i 60 i 65 i 72 i 74 i 76 w h v u
+q
+
+unit-metrics
+
+*
+
+The height of the tree is 0.
+There are no values in the tree.
+There are no nodes in the tree.
+
+20 50 70 
+
+The height of the tree is 1.
+There are 3 values in the tree.
+There is 1 node in the tree.
+
+70 
+|_ 30 50 
+|  |_ 10 20 
+|  |  
+|  |_ 35 40 45 
+|  |  
+|  |_ 60 65 
+|     
+|_ 76 90 
+   |_ 72 74 
+   |  
+   |_ 80 
+   |  
+   |_ 95 
+      
+The height of the tree is 3.
+There are 16 values in the tree.
+There are 9 nodes in the tree.

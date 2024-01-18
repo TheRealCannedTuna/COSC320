@@ -1,0 +1,17 @@
+5 n 1.1 n 2.2 n 3.3 w h d w h d w h
+q
+
+unit-headOf
+
+Head --> Tail
+1.1  2.2  3.3
+Queue head: 1.1
+
+Head --> Tail
+2.2  3.3
+Queue head: 2.2
+
+Head --> Tail
+3.3
+Queue head: 3.3
+

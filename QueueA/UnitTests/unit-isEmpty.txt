@@ -1,0 +1,64 @@
+5 w e n 1.1 w e n 2.2 d w e d w e
+n 3.3 w e n 4.4 n 5.5 d d w e d w e
+n 6.6 w e d w e n 7.7 w e d w e
+n 8.8 w e n 9.9 d w e d w e
+q
+
+unit-isEmpty
+
+Head --> Tail
+
+The queue is empty.
+
+Head --> Tail
+1.1  
+The queue is not empty.
+
+Head --> Tail
+2.2  
+The queue is not empty.
+
+Head --> Tail
+
+The queue is empty.
+
+Head --> Tail
+3.3  
+The queue is not empty.
+
+Head --> Tail
+5.5  
+The queue is not empty.
+
+Head --> Tail
+
+The queue is empty.
+
+Head --> Tail
+6.6  
+The queue is not empty.
+
+Head --> Tail
+
+The queue is empty.
+
+Head --> Tail
+7.7  
+The queue is not empty.
+
+Head --> Tail
+
+The queue is empty.
+
+Head --> Tail
+8.8  
+The queue is not empty.
+
+Head --> Tail
+9.9  
+The queue is not empty.
+
+Head --> Tail
+
+The queue is empty.
+
