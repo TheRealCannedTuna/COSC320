@@ -1,0 +1,26 @@
+i 40 cat i 50 dog i 20 rat i 30 giraffe w
+n 15 n 25 n 35 n 45 n 55
+n 20 n 30 n 40 n 50 q
+
+unit-contains
+
+<40, cat>
+|_ <20, rat>
+|  |_ ()
+|  |_ <30, giraffe>
+|     |_ ()
+|     |_ ()
+|_ <50, dog>
+   |_ ()
+   |_ ()
+
+Key 15 is not in the dictionary.
+Key 25 is not in the dictionary.
+Key 35 is not in the dictionary.
+Key 45 is not in the dictionary.
+Key 55 is not in the dictionary.
+
+The value for key 20 is rat.
+The value for key 30 is giraffe.
+The value for key 40 is cat.
+The value for key 50 is dog.

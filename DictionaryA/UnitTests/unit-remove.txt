@@ -1,0 +1,63 @@
+11 
+r 45 
+i 70 cat i 60 dog i 10 rat i 30 giraffe i 20 lion i 50 aardvark i 40 zebra
+i 80 snake i 100 pig i 90 fish i 110 bird w
+r 5 r 25 r 115
+r 110 w r 80 w r 10 w
+q
+
+unit-remove
+
+Key 45 is not in the dictionary.
+
+0: <10, rat>
+1: <20, lion>
+2: <30, giraffe>
+3: <40, zebra>
+4: <50, aardvark>
+5: <60, dog>
+6: <70, cat>
+7: <80, snake>
+8: <90, fish>
+9: <100, pig>
+10: <110, bird>
+
+Key 5 is not in the dictionary.
+Key 25 is not in the dictionary.
+Key 115 is not in the dictionary.
+
+Key 110 removed with a value of bird.
+
+0: <10, rat>
+1: <20, lion>
+2: <30, giraffe>
+3: <40, zebra>
+4: <50, aardvark>
+5: <60, dog>
+6: <70, cat>
+7: <80, snake>
+8: <90, fish>
+9: <100, pig>
+
+Key 80 removed with a value of snake.
+
+0: <10, rat>
+1: <20, lion>
+2: <30, giraffe>
+3: <40, zebra>
+4: <50, aardvark>
+5: <60, dog>
+6: <70, cat>
+7: <90, fish>
+8: <100, pig>
+
+Key 10 removed with a value of rat.
+
+0: <20, lion>
+1: <30, giraffe>
+2: <40, zebra>
+3: <50, aardvark>
+4: <60, dog>
+5: <70, cat>
+6: <90, fish>
+7: <100, pig>

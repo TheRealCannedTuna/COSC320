@@ -1,0 +1,30 @@
+5 
+i 40 cat i 50 dog i 20 rat i 10 pig i 30 giraffe w
+i 30 hippopotamus w i 50 bird w i 10 mosquito w
+q
+
+unit-insert
+
+0: <10, pig>
+1: <20, rat>
+2: <30, giraffe>
+3: <40, cat>
+4: <50, dog>
+
+0: <10, pig>
+1: <20, rat>
+2: <30, hippopotamus>
+3: <40, cat>
+4: <50, dog>
+
+0: <10, pig>
+1: <20, rat>
+2: <30, hippopotamus>
+3: <40, cat>
+4: <50, bird>
+
+0: <10, mosquito>
+1: <20, rat>
+2: <30, hippopotamus>
+3: <40, cat>
+4: <50, bird>

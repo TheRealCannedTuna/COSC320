@@ -1,0 +1,21 @@
+i 10 0 w 0 r 0
+i 20 1 i 30 2 f 1 0 g 1 2 w 1 r 1
+q
+
+unit-root
+
+     -*
+10--|
+     -*
+
+The root value is 10
+
+          -*
+     30--|
+    |     -*
+20--|
+    |     -*
+     10--|
+          -*
+
+The root value is 20

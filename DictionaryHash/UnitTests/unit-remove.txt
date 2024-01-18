@@ -1,0 +1,33 @@
+k 2 i
+i cat 70 i dog 60 i rat 10 i giraffe 30 i lion 20 i aardvark 50 i zebra 40
+i snake 50 i pig 100 i fish 90 i bird 110 w
+r ant r horse r butterfly
+r cat w r pig w r fish w
+c r elephant w
+q
+
+unit-remove
+
+0: (<cat, 70>, <rat, 10>, <giraffe, 30>, <lion, 20>, <fish, 90>, <bird, 110>)
+1: (<dog, 60>, <aardvark, 50>, <zebra, 40>, <snake, 50>, <pig, 100>)
+
+Key ant is not in the dictionary.
+Key horse is not in the dictionary.
+Key butterfly is not in the dictionary.
+
+Key cat removed with a value of 70.
+
+0: (<rat, 10>, <giraffe, 30>, <lion, 20>, <fish, 90>, <bird, 110>)
+1: (<dog, 60>, <aardvark, 50>, <zebra, 40>, <snake, 50>, <pig, 100>)
+
+Key pig removed with a value of 100.
+
+0: (<rat, 10>, <giraffe, 30>, <lion, 20>, <fish, 90>, <bird, 110>)
+1: (<dog, 60>, <aardvark, 50>, <zebra, 40>, <snake, 50>)
+
+Key fish removed with a value of 90.
+
+0: (<rat, 10>, <giraffe, 30>, <lion, 20>, <bird, 110>)
+1: (<dog, 60>, <aardvark, 50>, <zebra, 40>, <snake, 50>)
+
+Key elephant is not in the dictionary.

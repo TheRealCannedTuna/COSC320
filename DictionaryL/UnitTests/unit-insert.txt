@@ -1,0 +1,8 @@
+i 40 cat i 50 dog i 20 rat i 10 pig i 30 giraffe w
+i 30 hippopotamus w q
+
+unit-insert
+
+(<40, cat>, <50, dog>, <20, rat>, <10, pig>, <30, giraffe>)
+
+(<40, cat>, <50, dog>, <20, rat>, <10, pig>, <30, hippopotamus>)

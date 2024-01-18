@@ -1,0 +1,122 @@
+i 70 cat i 60 dog i 10 rat i 30 giraffe i 20 lion i 50 aardvark i 40 zebra
+i 80 snake i 100 pig i 90 fish i 110 bird w
+r 5 r 15 r 25 r 35 r 115
+r 80 w r 90 w r 60 w r 70 w q
+
+unit-remove
+
+<70, cat>
+|_ <60, dog>
+|  |_ <10, rat>
+|  |  |_ ()
+|  |  |_ <30, giraffe>
+|  |     |_ <20, lion>
+|  |     |  |_ ()
+|  |     |  |_ ()
+|  |     |_ <50, aardvark>
+|  |        |_ <40, zebra>
+|  |        |  |_ ()
+|  |        |  |_ ()
+|  |        |_ ()
+|  |_ ()
+|_ <80, snake>
+   |_ ()
+   |_ <100, pig>
+      |_ <90, fish>
+      |  |_ ()
+      |  |_ ()
+      |_ <110, bird>
+         |_ ()
+         |_ ()
+
+Key 5 is not in the dictionary.
+Key 15 is not in the dictionary.
+Key 25 is not in the dictionary.
+Key 35 is not in the dictionary.
+Key 115 is not in the dictionary.
+
+Key 80 removed with a value of snake.
+
+<70, cat>
+|_ <60, dog>
+|  |_ <10, rat>
+|  |  |_ ()
+|  |  |_ <30, giraffe>
+|  |     |_ <20, lion>
+|  |     |  |_ ()
+|  |     |  |_ ()
+|  |     |_ <50, aardvark>
+|  |        |_ <40, zebra>
+|  |        |  |_ ()
+|  |        |  |_ ()
+|  |        |_ ()
+|  |_ ()
+|_ <100, pig>
+   |_ <90, fish>
+   |  |_ ()
+   |  |_ ()
+   |_ <110, bird>
+      |_ ()
+      |_ ()
+
+Key 90 removed with a value of fish.
+
+<70, cat>
+|_ <60, dog>
+|  |_ <10, rat>
+|  |  |_ ()
+|  |  |_ <30, giraffe>
+|  |     |_ <20, lion>
+|  |     |  |_ ()
+|  |     |  |_ ()
+|  |     |_ <50, aardvark>
+|  |        |_ <40, zebra>
+|  |        |  |_ ()
+|  |        |  |_ ()
+|  |        |_ ()
+|  |_ ()
+|_ <100, pig>
+   |_ ()
+   |_ <110, bird>
+      |_ ()
+      |_ ()
+
+Key 60 removed with a value of dog.
+
+(c)lear  (i)nsert  (r)emove  co(n)tains  (w)rite  (q)uit:
+<70, cat>
+|_ <50, aardvark>
+|  |_ <10, rat>
+|  |  |_ ()
+|  |  |_ <30, giraffe>
+|  |     |_ <20, lion>
+|  |     |  |_ ()
+|  |     |  |_ ()
+|  |     |_ <40, zebra>
+|  |        |_ ()
+|  |        |_ ()
+|  |_ ()
+|_ <100, pig>
+   |_ ()
+   |_ <110, bird>
+      |_ ()
+      |_ ()
+
+Key 70 removed with a value of cat.
+
+(c)lear  (i)nsert  (r)emove  co(n)tains  (w)rite  (q)uit:
+<50, aardvark>
+|_ <10, rat>
+|  |_ ()
+|  |_ <30, giraffe>
+|     |_ <20, lion>
+|     |  |_ ()
+|     |  |_ ()
+|     |_ <40, zebra>
+|        |_ ()
+|        |_ ()
+|_ <100, pig>
+   |_ ()
+   |_ <110, bird>
+      |_ ()
+      |_ ()

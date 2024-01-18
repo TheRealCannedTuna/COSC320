@@ -1,0 +1,15 @@
+b 512 f 256 DictionaryHash-words.txt n n n
+
+unit-bernstein-512-256
+
+Hash type: Bernstein
+Hash table size: 512
+Number loaded: 256
+Load factor alpha: 256/512 == 0.5
+Number tested: 512
+Number found: 256
+Number of found comparisons: 304
+Found comparisons per query: 1.1875
+Number missing: 256
+Number of missing comparisons: 101
+Missing comparisons per query: 0.394531

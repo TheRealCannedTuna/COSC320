@@ -1,0 +1,46 @@
+b 7 f 10 DictionaryHash-words.txt y y y
+
+unit-bernstein-7-10
+
+1                 23                456               78910             BMW325i           A
+a                 aback             abacus            abandon
+
+0: (<abandon, 8854>)
+1: (<BMW325i, 5590>)
+2: (<78910, 3070>, <aback, 7736>)
+3: (<a, 3489>, <abacus, 1428>)
+4: (<1, 6410>, <456, 3267>)
+6: (<23, 8414>, <A, 7820>)
+
+Found:     <1, 6410>
+Found:     <23, 8414>
+Found:     <456, 3267>
+Found:     <78910, 3070>
+Found:     <BMW325i, 5590>
+Found:     <A, 7820>
+Found:     <a, 3489>
+Found:     <aback, 7736>
+Found:     <abacus, 1428>
+Found:     <abandon, 8854>
+Not found: abandoned
+Not found: abandonment
+Not found: abashed
+Not found: abate
+Not found: abbey
+Not found: abbr.
+Not found: abbreviate
+Not found: abbreviation
+Not found: ABC
+Not found: ABC's
+
+Hash type: Bernstein
+Hash table size: 7
+Number loaded: 10
+Load factor alpha: 10/7 == 1.42857
+Number tested: 20
+Number found: 10
+Number of found comparisons: 14
+Found comparisons per query: 1.4
+Number missing: 10
+Number of missing comparisons: 15
+Missing comparisons per query: 1.5
