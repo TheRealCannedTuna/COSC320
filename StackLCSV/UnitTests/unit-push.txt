@@ -1,0 +1,13 @@
+5 p 1.1 w p 2.2 w p 3.3 w
+q
+
+unit-push
+
+Top --> Bottom
+(1.1)
+
+Top --> Bottom
+(2.2, 1.1)
+
+Top --> Bottom
+(3.3, 2.2, 1.1)

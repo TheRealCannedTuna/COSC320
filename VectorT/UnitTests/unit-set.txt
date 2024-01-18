@@ -1,0 +1,18 @@
+a 20 a 50 a 30 a 70 a 10 a 60 a 40 w
+t 5 0 w
+t 45 3 w
+t 75 6 w
+q
+
+VectorT unit-set
+
+(20, 50, 30, 70, 10, 60, 40)
+
+Value at index 0 is now 5
+(5, 50, 30, 70, 10, 60, 40)
+
+Value at index 3 is now 45
+(5, 50, 30, 45, 10, 60, 40)
+
+Value at index 6 is now 75
+(5, 50, 30, 45, 10, 60, 75)

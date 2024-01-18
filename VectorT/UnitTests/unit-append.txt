@@ -1,0 +1,29 @@
+w c s
+a 10 w c s
+a 30 w c s
+a 20 w c s
+a 70 a -50 a 40 w c s
+d w
+q
+
+VectorT unit-append
+
+()
+The capacity is 1
+The size is 0
+
+(10)
+The capacity is 1
+The size is 1
+
+(10, 30)
+The capacity is 2
+The size is 2
+
+(10, 30, 20)
+The capacity is 4
+The size is 3
+
+(10, 30, 20, 70, -50, 40)
+The capacity is 8
+The size is 6

@@ -1,0 +1,40 @@
+a 30 a 20 a 10 a 70 a 50 a 40 a 60 w c s
+r 0 w c s
+r 1 w c s
+r 4 w c s
+r 0 r 0 r 0 w c s
+r 0 w c s
+q
+
+VectorT unit-remove
+
+(30, 20, 10, 70, 50, 40, 60)
+The capacity is 8
+The size is 7
+
+30 removed
+(20, 10, 70, 50, 40, 60)
+The capacity is 8
+The size is 6
+
+10 removed
+(20, 70, 50, 40, 60)
+The capacity is 8
+The size is 5
+
+60 removed
+(20, 70, 50, 40)
+The capacity is 8
+The size is 4
+
+20 removed
+70 removed
+50 removed
+(40)
+The capacity is 8
+The size is 1
+
+40 removed
+()
+The capacity is 8
+The size is 0
