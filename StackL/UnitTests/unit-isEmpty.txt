@@ -1,0 +1,16 @@
+5 w e p 1.1 w e p 2.2 w e
+q
+
+unit-isEmpty
+
+Top --> Bottom
+()
+The stack is empty.
+
+Top --> Bottom
+(1.1)
+The stack is not empty.
+
+Top --> Bottom
+(2.2, 1.1)
+The stack is not empty.

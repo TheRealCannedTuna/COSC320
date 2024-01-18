@@ -1,0 +1,19 @@
+5 p 1.1 w t p 2.2 w t p 3.3 w t
+q
+
+unit-topOf
+
+Top --> Bottom
+(1.1)
+
+Stack top: 1.1
+
+Top --> Bottom
+(2.2, 1.1)
+
+Stack top: 2.2
+
+Top --> Bottom
+(3.3, 2.2, 1.1)
+
+Stack top: 3.3

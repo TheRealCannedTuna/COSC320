@@ -1,0 +1,22 @@
+5 p 1.1 p 2.2 p 3.3 w o w o w o w
+q
+
+unit-pop
+
+Top --> Bottom
+(3.3, 2.2, 1.1)
+
+Value popped: 3.3
+
+Top --> Bottom
+(2.2, 1.1)
+
+Value popped: 2.2
+
+Top --> Bottom
+(1.1)
+
+Value popped: 1.1
+
+Top --> Bottom
+()
