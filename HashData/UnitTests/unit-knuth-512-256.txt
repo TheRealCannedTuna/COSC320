@@ -1,0 +1,15 @@
+k 512 256 HashData-words.txt n n n
+
+unit-knuth-512-256
+
+Hash type: Knuth
+Hash table size: 512
+Number loaded: 256
+Number tested: 512
+Number found: 256
+Number of found comparisons: 399
+Found comparisons per query: 399/256 == 1.55859
+Number missing: 256
+Number of missing comparisons: 248
+Missing comparisons per query: 248/256 == 0.96875
+Load factor alpha: 256/512 == 0.5

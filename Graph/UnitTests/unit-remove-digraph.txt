@@ -1,0 +1,31 @@
+y 6 
+i 0 1 i 0 3 
+i 1 5 
+i 2 4 i 2 1 
+i 3 1 
+i 4 5 i 4 3 
+i 5 2 
+e w r 3 1 r 4 5 r 2 3 e w
+q
+
+unit-remove-digraph
+
+Number of edges: 9
+
+Adjacency lists
+0: (3, 1)
+1: (5)
+2: (1, 4)
+3: (1)
+4: (3, 5)
+5: (2)
+
+Number of edges: 7
+
+Adjacency lists
+0: (3, 1)
+1: (5)
+2: (1, 4)
+3: ()
+4: (3)
+5: (2)

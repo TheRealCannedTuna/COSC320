@@ -1,0 +1,24 @@
+k 7 10 HashData-words.txt n y n
+
+unit-knuth-7-10
+
+0: (abandon)
+1: (aback, BMW325i)
+2: (a)
+3: (23, 1)
+4: (78910)
+5: (abacus)
+6: (A, 456)
+
+Display tested keys? (y or n):
+Hash type: Knuth
+Hash table size: 7
+Number loaded: 10
+Number tested: 20
+Number found: 10
+Number of found comparisons: 13
+Found comparisons per query: 13/10 == 1.3
+Number missing: 10
+Number of missing comparisons: 15
+Missing comparisons per query: 15/10 == 1.5
+Load factor alpha: 10/7 == 1.42857

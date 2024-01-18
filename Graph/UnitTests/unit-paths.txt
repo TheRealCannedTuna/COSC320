@@ -1,0 +1,31 @@
+y 6 
+i 0 4 i 1 2 i 2 5 i 3 0 i 3 4 i 4 0 i 4 2 i 5 4 
+w p 0 5 p 5 0 p 3 5 p 5 3
+q
+
+unit-paths
+
+Adjacency lists
+0: (4)
+1: (2)
+2: (5)
+3: (4, 0)
+4: (2, 0)
+5: (4)
+
+Breadth-first search from 0: 0  4  2  5  
+Path from 0 to 5 is: 0 4 2 5 
+Distance = 3
+
+Breadth-first search from 5: 5  4  2  0  
+Path from 5 to 0 is: 5 4 0 
+Distance = 2
+
+Breadth-first search from 3: 3  4  0  2  5  
+Path from 3 to 5 is: 3 4 2 5 
+Distance = 3
+
+Breadth-first search from 5: 5  4  2  0  
+Path from 5 to 3 is: 
+No path from 5 to 3 exists 
+

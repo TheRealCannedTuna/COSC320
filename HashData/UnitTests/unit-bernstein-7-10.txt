@@ -1,0 +1,23 @@
+b 7 10 HashData-words.txt n y n
+
+unit-bernstein-7-10
+
+0: (abandon)
+1: (BMW325i)
+2: (aback, 78910)
+3: (abacus, a)
+4: (456, 1)
+6: (A, 23)
+
+Display tested keys? (y or n):
+Hash type: Bernstein
+Hash table size: 7
+Number loaded: 10
+Number tested: 20
+Number found: 10
+Number of found comparisons: 14
+Found comparisons per query: 14/10 == 1.4
+Number missing: 10
+Number of missing comparisons: 15
+Missing comparisons per query: 15/10 == 1.5
+Load factor alpha: 10/7 == 1.42857
