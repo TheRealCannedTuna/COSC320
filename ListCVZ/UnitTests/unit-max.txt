@@ -1,0 +1,22 @@
+p 99 4 0 w 0 m 0
+p 99 4 0 p 20 0 1 p 10 1 0 w 0 m 0
+p 20 4 0 p 99 0 1 p 10 1 0 w 0 m 0
+p 20 4 0 p 10 0 1 p 99 1 0 w 0 m 0 q
+
+unit-max
+
+(99)
+
+The maximum element is 99
+
+(10, 20, 99)
+
+The maximum element is 99
+
+(10, 99, 20)
+
+The maximum element is 99
+
+(99, 10, 20)
+
+The maximum element is 99

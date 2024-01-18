@@ -1,0 +1,60 @@
+w 0 w 1 l 0 1
+p 10 0 w 0 w 1 l 0 1 l 1 0
+p 10 1 w 0 w 1 l 0 1
+p 20 0 p 30 0 w 0 w 1 l 0 1 l 1 0
+p 40 1 p 30 1 w 0 w 1 l 0 1 l 1 0
+p 50 2 p 10 2 p 20 2 p 30 2 w 0 w 2 l 0 2 l 2 0
+w 2 w 2 l 2 2
+q
+
+unit-equals
+
+()
+
+()
+
+The lists are equal.
+
+(10)
+
+()
+
+The lists are not equal.
+
+The lists are not equal.
+
+(10)
+
+(10)
+
+The lists are equal.
+
+(30, 20, 10)
+
+(10)
+
+The lists are not equal.
+
+The lists are not equal.
+
+(30, 20, 10)
+
+(30, 40, 10)
+
+The lists are not equal.
+
+The lists are not equal.
+
+(30, 20, 10)
+
+(30, 20, 10, 50)
+
+The lists are not equal.
+
+The lists are not equal.
+
+(30, 20, 10, 50)
+
+(30, 20, 10, 50)
+
+The lists are equal.
