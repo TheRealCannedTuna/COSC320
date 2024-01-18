@@ -2,7 +2,7 @@
 
 This repo has all of the code for Stan Warford's COSC 320 class, with most of the exercises completed. The entire course can be found at [https://cslab.pepperdine.edu/warford/cosc320/](https://cslab.pepperdine.edu/warford/cosc320/), all of which is available to use under a CC BY-SA license.
 
-COSC 320, also known as Data Structures, is a course that has three learning objectives: C++, object oriented programming, and data structures.
+COSC 320, also known as Data Structures, is a course that has three learning objectives: C++, object oriented programming, and data structures. If you want more details, just go to the link above and visit the syllabus.
 
 ## About This Repo
 
@@ -12,7 +12,7 @@ Every folder except `CoSc 320 Sort Paper Template` and `SortProject` is part of 
 
 ## A Personal Note
 
-I do not really care to make this repo able to be downloaded and executed. This is a memory of what was, a record that I did the class. Is my code flawless? Absolutely not. Will I fix it? Also absolutely not. It's *my* code, *my* work (except the parts that aren't, in which I give credit to whoever wrote the code), *my* barely tested abhorrent abomination.
+I do not really care to make this repo able to be downloaded and executed. This is a memory of what was, a record that I did the class. Is my code flawless? Absolutely not. Will I fix it? Also absolutely not. If something breaks, I'm sorry, but I won't fix it. It's *my* code, *my* work (except the parts that aren't, in which I give credit to whoever wrote the code), *my* barely tested abhorrent abomination.
 
 The sort paper might just be the single most scuffed piece of literature I have ever written and handed in for an official assignment, but I do not care. It's *my* scuffed paper, a product of *my* hard work and a *lot* of caffeine.
 
