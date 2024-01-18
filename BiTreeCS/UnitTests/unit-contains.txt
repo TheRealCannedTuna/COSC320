@@ -1,0 +1,46 @@
+w 0 n 75 0
+i 10 0 i 20 1 i 30 2 f 0 1 g 0 2 i 40 1 f 1 0 i 50 2 i 60 3 g 2 3 g 1 2 i 70 0 f 0 1 w 0
+n 5 0 n 15 0 n 25 0 n 35 0 n 45 0 n 55 0 n 65 0 n 75 0
+n 10 0 n 20 0 n 30 0 n 40 0 n 50 0 n 60 0 n 70 0
+q
+
+unit-contains
+
+Write which tree? (0..4): 
+*
+
+The tree does not contain 75.
+
+     -*
+70--|
+    |               -*
+    |          60--|
+    |         |     -*
+    |     50--|
+    |    |     -*
+     40--|
+         |          -*
+         |     30--|
+         |    |     -*
+          10--|
+              |     -*
+               20--|
+                    -*
+
+The tree does not contain 5.
+The tree does not contain 15.
+The tree does not contain 25.
+The tree does not contain 35.
+The tree does not contain 45.
+The tree does not contain 55.
+The tree does not contain 65.
+The tree does not contain 75.
+
+The tree contains 10.
+The tree contains 20.
+The tree contains 30.
+The tree contains 40.
+The tree contains 50.
+The tree contains 60.
+The tree contains 70.
+
